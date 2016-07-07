@@ -1,0 +1,10 @@
+media/
+/var/
+/test/
+cron.php
+cron.sh
+.idea/
+.DS_Store
+robots.txt
+/errors/
+dump.rdb
