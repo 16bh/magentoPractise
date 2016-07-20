@@ -204,7 +204,7 @@
                 <use>standard</use>
                 <args>
                     <module>Mage_Checkout</module>
-                    <frontName>checkout</frontName>
+                     <frontName>checkout</frontName>
                 </args>
             </checkout>
         </routers>

@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<config>
+    <tabs>
+        <appconfig translate="label" module="nano_app">
+            <label>App Options</label>
+            <sort_order>9999999</sort_order>
+        </appconfig>
+    </tabs>
+    <sections>
+        <app_options translate="label" module="nano_app">
+            <label>Settings</label>
+            <tab>appconfig</tab>
+            <frontend_type>text</frontend_type>
+            <sort_order>1000</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+            <groups>
+                <app_setting translate="label">
+                    <label>app的后台配置</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>1</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <user_name>
+                            <label>UserName</label>
+                            <frontend_type>text</frontend_type>
+                            <comment>用户名</comment>
+                            <sort_order>1</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </user_name>
+                        <pass_word>
+                            <label>Password</label>
+                            <frontend_type>text</frontend_type>
+                            <comment>密码</comment>
+                            <sort_order>2</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </pass_word>
+                    </fields>
+                </app_setting>
+            </groups>
+        </app_options>
+    </sections>
+</config>

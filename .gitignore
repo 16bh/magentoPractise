@@ -8,3 +8,7 @@ cron.sh
 robots.txt
 /errors/
 dump.rdb
+app/locale
+cache.cfg
+connect.cfg
+Mage_Locale_zh_CN-1.9.0.0.tgz
